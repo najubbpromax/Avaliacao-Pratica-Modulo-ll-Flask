@@ -66,6 +66,7 @@ if v2 == 0:
 Rodando o projeto (`python app.py`), abra no navegador:
 
 - [http://127.0.0.1:5000/soma?valor1=10&valor2=20]
+- [http://127.0.0.1:5000/soma/10/20]
 
 Retorno esperado:
 ```json

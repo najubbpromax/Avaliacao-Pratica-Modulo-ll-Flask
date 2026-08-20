@@ -37,13 +37,9 @@ if __name__ == "__main__":
 #### 2. Criando as rotas da calculadora
 Implemente **4 rotas GET** que recebem parâmetros pela URL e retornam JSON com o resultado:
 
-- `/soma?valor1=5&valor2=6`  
-- `/subtrair?valor1=5&valor2=6`  
-- `/multiplicar?valor1=5&valor2=6`  
-- `/dividir?valor1=5&valor2=6`
-
 👉 **Dicas:**
-- Use `request.args.get("valor1")` para capturar parâmetros.  
+- Use `request.args.get("valor1")` para capturar parâmetros.
+- *OU* Use `http://localhost:5000/soma/<int:num1>/<int:num2>` para capturar parâmetros.  
 - Converta valores com `float()`.  
 - Retorne um dicionário Python (Flask converte para JSON).  
 
